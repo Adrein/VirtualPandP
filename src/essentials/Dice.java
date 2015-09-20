@@ -1,5 +1,12 @@
 package essentials;
 
 public class Dice {
-//würfeln !!!!
+	int seiten; 
+	public Dice(int Seiten) {
+		this.seiten = Seiten;
+	}
+	
+	public int rollDice() {
+		return 20;
+	}
 }
